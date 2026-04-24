@@ -1,9 +1,32 @@
+# -------------------- CORE BACKEND --------------------
 fastapi
-uvicorn
+uvicorn[standard]
+python-multipart
+pydantic
+
+# -------------------- DATABASE --------------------
+sqlalchemy
+psycopg2-binary
+
+# -------------------- COMPUTER VISION (YOLO) --------------------
 torch
 torchvision
 opencv-python
 numpy
-pydantic
-sqlalchemy
-python-multipart
+Pillow
+
+# -------------------- YOLO / DATA --------------------
+matplotlib
+pandas
+seaborn
+
+# -------------------- AUDIO PROCESSING --------------------
+librosa
+scipy
+
+# -------------------- UTILITIES --------------------
+requests
+python-dotenv
+
+# -------------------- EMAIL ALERTS --------------------
+secure-smtplib
